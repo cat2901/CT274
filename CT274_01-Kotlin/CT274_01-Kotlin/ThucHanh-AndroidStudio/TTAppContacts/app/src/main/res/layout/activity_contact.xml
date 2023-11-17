@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivAvatarP"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        tools:src="@drawable/test_avt"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvNameP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        android:layout_gravity="center">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="16sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvEmailP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5sp">
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#D5D1D2"
+        android:layout_marginTop="5sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textSize="16sp"
+        android:layout_marginTop="5sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvPhoneNumberP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5sp">
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#D5D1D2"
+        android:layout_marginTop="5sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="16sp"
+        android:layout_marginTop="5sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvAddressP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5sp">
+    </TextView>
+
+</LinearLayout>

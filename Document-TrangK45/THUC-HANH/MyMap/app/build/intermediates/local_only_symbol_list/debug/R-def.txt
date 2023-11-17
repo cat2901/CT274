@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable baseline_save_24
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id et_description
+id et_title
+id et_title_map
+id floatingActionButton
+id map
+id miSave
+id row_layout
+id rvMaps
+id tv_place
+layout activity_create_map
+layout activity_display_map
+layout activity_main
+layout dialog_create_place
+layout dialong_create_map
+layout row_place
+menu menu_create_map
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string title_activity_create_map
+string title_activity_display_map
+style Theme.MyMap
+xml backup_rules
+xml data_extraction_rules
